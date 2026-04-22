@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+
+# Ignore local database and logs
+database/*.db
+logs/*.log
+output/batches/*.csv
+
+# Keep folders in git even if they are empty (except for ignored files)
+!logs/.gitkeep
+!database/.gitkeep
+!output/batches/.gitkeep
